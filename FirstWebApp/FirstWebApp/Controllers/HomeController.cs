@@ -17,6 +17,24 @@ public class HomeController : Controller
     {
         return View();
     }
+    [HttpGet]
+    public IActionResult Test()
+    {
+
+        var model = new TestModel();
+        
+        return View(model);
+    }
+
+    [HttpPost]
+    public IActionResult Test(TestModel model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(model);
+        }
+        return RedirectToAction(nameof(Index));
+    }
 
     public IActionResult Privacy()
     {
