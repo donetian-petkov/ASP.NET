@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using FirstWebApp.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using FirstWebApp.Models;
 
@@ -7,10 +8,14 @@ namespace FirstWebApp.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly ITestService testService;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(
+        ILogger<HomeController> logger,
+        ITestService _testService)
     {
         _logger = logger;
+        testService = _testService;
     }
 
     public IActionResult Index()
@@ -33,6 +38,9 @@ public class HomeController : Controller
         {
             return View(model);
         }
+
+        string product = testService.GetProduct(model);
+        
         return RedirectToAction(nameof(Index));
     }
 
