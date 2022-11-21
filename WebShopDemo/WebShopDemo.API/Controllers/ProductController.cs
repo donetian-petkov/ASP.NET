@@ -22,7 +22,7 @@ namespace WebShopDemo.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            return Ok();
+            return Ok(await productService.GetAll());
         }
         
     }
