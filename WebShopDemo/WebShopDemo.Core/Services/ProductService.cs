@@ -28,7 +28,7 @@ public class ProductService : IProductService
     /// <returns></returns>
     public async Task<IEnumerable<ProductDto>> GetAll()
     {
-        string dataPath = config.GetValue<string>("DataFiles.Products");
+        string dataPath = config.GetValue<string>("DataFiles:Products");
 
         string data = await File.ReadAllTextAsync(dataPath);
 
