@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Server.Kestrel.Core;
+using WebShopDemo.Core.Contracts;
+using WebShopDemo.Core.Services;
 using WebShopDemo.Grpc.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,7 @@ builder.WebHost.ConfigureKestrel(options =>
     options.ListenLocalhost(5287, o => o.Protocols =
         HttpProtocols.Http2);
 });
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 var app = builder.Build();

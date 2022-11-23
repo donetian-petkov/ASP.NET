@@ -10,28 +10,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6db6cf3f-0252-4c05-88a5-7853979f10a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebShopDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebShopDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/WebShopDemo.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/WebShopDemo.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/bin/Debug/net6.0/WebShopDemo.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/bin/Debug/net6.0/WebShopDemo.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/bin/Debug/net6.0/WebShopDemo.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/bin/Debug/net6.0/WebShopDemo.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/bin/Debug/net6.0/WebShopDemo.API.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/WebShopDemo.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/WebShopDemo.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/WebShopDemo.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/WebShopDemo.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/WebShopDemo.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/WebShopDemo.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/ref/WebShopDemo.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/ref/WebShopDemo.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/refint/WebShopDemo.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/refint/WebShopDemo.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/obj/staticwebassets.pack.sentinel" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/WebShopDemo.Grpc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/WebShopDemo.Grpc.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/ref/WebShopDemo.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/ref/WebShopDemo.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/refint/WebShopDemo.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/refint/WebShopDemo.Grpc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668958862734</updated>
-      <workItem from="1668958899509" duration="24363000" />
+      <workItem from="1668958899509" duration="24983000" />
     </task>
     <servers />
   </component>
