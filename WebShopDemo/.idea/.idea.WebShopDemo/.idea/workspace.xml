@@ -10,14 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6db6cf3f-0252-4c05-88a5-7853979f10a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebShopDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebShopDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/WebShopDemo.Grpc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/bin/Debug/net6.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebShopDemo/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/Data/ApplicationDbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebShopDemo.API">
     <configuration name="WebShopDemo" type="LaunchSettings" factoryName=".NET Launch Settings Profile" singleton="false">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebShopDemo/WebShopDemo.csproj" />
@@ -147,7 +140,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668958862734</updated>
-      <workItem from="1668958899509" duration="24983000" />
+      <workItem from="1668958899509" duration="26243000" />
+      <workItem from="1669356036663" duration="514000" />
     </task>
     <servers />
   </component>
