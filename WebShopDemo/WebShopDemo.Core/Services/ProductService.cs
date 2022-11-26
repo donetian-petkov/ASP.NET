@@ -1,4 +1,5 @@
 using System.Text.Json.Nodes;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using WebShopDemo.Core.Contracts;
@@ -35,11 +36,14 @@ public class ProductService : IProductService
     /// <returns></returns>
     public async Task<IEnumerable<Product>> GetAll()
     {
-        string dataPath = config.GetValue<string>("DataFiles:Products");
-
-        string data = await File.ReadAllTextAsync(dataPath);
-
-        return JsonConvert.DeserializeObject<IEnumerable<Product>>(data);
+        return await repo.AllReadonly<Product>()
+            .Select(p => new Product()
+            {
+                Id = p.Id,
+                Name = p.Name,
+                Price = p.Price,
+                Quantity = p.Quantity
+            }).ToListAsync();
     }
 
     /// <summary>
