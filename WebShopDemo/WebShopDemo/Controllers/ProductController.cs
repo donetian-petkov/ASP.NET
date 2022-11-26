@@ -36,14 +36,14 @@ public class ProductController : Controller
     [HttpGet]
     public IActionResult Add()
     {
-        var model = new Product();
+        var model = new ProductDto();
         ViewData["Title"] = "Add New Product";
         
         return View(model);
     }
 
     [HttpPost]
-    public async Task<IActionResult> Add(Product model)
+    public async Task<IActionResult> Add(ProductDto model)
     {
         ViewData["Title"] = "Add New Product";
 

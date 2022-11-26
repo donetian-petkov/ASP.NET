@@ -14,14 +14,14 @@ public interface IProductService
     /// Gets All Products 
     /// </summary>
     /// <returns></returns>
-    Task<IEnumerable<Product>> GetAll();
+    Task<IEnumerable<ProductDto>> GetAll();
 
     /// <summary>
     /// Add New Product 
     /// </summary>
     /// <param name="productDto">Product Model</param>
     /// <returns></returns>
-    Task Add(Product productDto);
+    Task Add(ProductDto productDto);
 
 
 }

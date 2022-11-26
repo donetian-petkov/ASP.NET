@@ -10,16 +10,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6db6cf3f-0252-4c05-88a5-7853979f10a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebShopDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebShopDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/Contracts/IProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/Contracts/IProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/Models/ProductDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/Models/ProductDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/Services/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebShopDemo/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/Controllers/ProductController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebShopDemo/Views/Product/Add.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/Views/Product/Add.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/ref/WebShopDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/ref/WebShopDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/refint/WebShopDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/refint/WebShopDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebShopDemo/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/Views/Product/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668958862734</updated>
       <workItem from="1668958899509" duration="26243000" />
-      <workItem from="1669356036663" duration="15178000" />
+      <workItem from="1669356036663" duration="16224000" />
     </task>
     <servers />
   </component>

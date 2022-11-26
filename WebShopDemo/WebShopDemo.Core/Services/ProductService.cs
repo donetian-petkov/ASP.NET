@@ -34,10 +34,10 @@ public class ProductService : IProductService
     /// Gets All Products
     /// </summary>
     /// <returns></returns>
-    public async Task<IEnumerable<Product>> GetAll()
+    public async Task<IEnumerable<ProductDto>> GetAll()
     {
-        return await repo.AllReadonly<Product>()
-            .Select(p => new Product()
+        return await repo.AllReadonly<ProductDto>()
+            .Select(p => new ProductDto()
             {
                 Id = p.Id,
                 Name = p.Name,
@@ -51,9 +51,9 @@ public class ProductService : IProductService
     /// </summary>
     /// <param name="productDto">Product Model</param>
     /// <returns></returns>
-    public async Task Add(Product productDto)
+    public async Task Add(ProductDto productDto)
     {
-        var product = new Product()
+        var product = new ProductDto()
         {
             Name = productDto.Name,
             Price = productDto.Price,

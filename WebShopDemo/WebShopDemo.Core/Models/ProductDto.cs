@@ -22,7 +22,8 @@ public class ProductDto
     /// <summary>
     /// Product Price
     /// </summary>
-    [Range(typeof(decimal), "0.1", "79228162514264337593543950335M", ConvertValueInInvariantCulture = true)]
+    ///[Range(typeof(decimal), "0.1", "79228162514264337593543950335M", ConvertValueInInvariantCulture = true)]
+    [Required]
     public decimal Price { get; set; }
     
     /// <summary>
