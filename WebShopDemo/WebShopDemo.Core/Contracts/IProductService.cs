@@ -1,3 +1,5 @@
+using WebShopDemo.Core.Data.Common;
+using WebShopDemo.Core.Data.Models;
 using WebShopDemo.Core.Models;
 
 namespace WebShopDemo.Core.Contracts;
@@ -12,5 +14,14 @@ public interface IProductService
     /// Gets All Products 
     /// </summary>
     /// <returns></returns>
-    Task<IEnumerable<ProductDto>> GetAll();
+    Task<IEnumerable<Product>> GetAll();
+
+    /// <summary>
+    /// Add New Product 
+    /// </summary>
+    /// <param name="productDto">Product Model</param>
+    /// <returns></returns>
+    Task Add(Product productDto);
+
+
 }
