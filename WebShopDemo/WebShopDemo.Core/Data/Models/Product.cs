@@ -22,4 +22,7 @@ public class Product
     [Required]
     [Comment("Product In Stock")]
     public int Quantity { get; set; }
+
+    [Comment("Product Availability")]
+    public bool IsActive { get; set; } = true;
 }

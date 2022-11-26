@@ -36,7 +36,7 @@ public class ProductService : IProductService
     /// <returns></returns>
     public async Task<IEnumerable<ProductDto>> GetAll()
     {
-        return await repo.AllReadonly<ProductDto>()
+        return await repo.AllReadonly<Product>()
             .Select(p => new ProductDto()
             {
                 Id = p.Id,
@@ -53,7 +53,7 @@ public class ProductService : IProductService
     /// <returns></returns>
     public async Task Add(ProductDto productDto)
     {
-        var product = new ProductDto()
+        var product = new Product()
         {
             Name = productDto.Name,
             Price = productDto.Price,

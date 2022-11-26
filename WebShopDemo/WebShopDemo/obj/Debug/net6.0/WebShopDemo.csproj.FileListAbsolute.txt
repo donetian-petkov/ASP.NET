@@ -303,4 +303,4 @@
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo/bin/Debug/net6.0/EFCore.NamingConventions.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo/bin/Debug/net6.0/Npgsql.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
-/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo/obj/Debug/net6.0/refint/WebShopDemo.dll
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo/bin/Debug/net6.0/ref/WebShopDemo.dll

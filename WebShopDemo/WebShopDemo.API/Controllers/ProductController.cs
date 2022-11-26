@@ -28,7 +28,7 @@ namespace WebShopDemo.API.Controllers
 
         [HttpGet]
         [Produces("application/json")]
-        [ProducesResponseType(200, StatusCode = StatusCodes.Status200OK, Type = typeof(IEnumerable<Product>))]
+        [ProducesResponseType(200, StatusCode = StatusCodes.Status200OK, Type = typeof(IEnumerable<ProductDto>))]
         public async Task<IActionResult> GetAll()
         {
             return Ok(await productService.GetAll());
