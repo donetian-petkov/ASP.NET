@@ -7,7 +7,9 @@
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.AssemblyInfo.cs
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.csproj.CoreCompileInputs.cache
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.dll
-/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/obj/Debug/net6.0/refint/WebShopDemo.Core.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.pdb
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/obj/Debug/net6.0/ref/WebShopDemo.Core.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/bin/Debug/net6.0/Data/Products.json
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/bin/Debug/net6.0/WebShopDemo.Core.runtimeconfig.json
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.genruntimeconfig.cache
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Core/bin/Debug/net6.0/ref/WebShopDemo.Core.dll

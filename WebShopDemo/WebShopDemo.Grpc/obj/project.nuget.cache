@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HN0guw/NGiCJwROePwlm8cPt4Fq+ghYOOCPojXMqyc8i8kju1dUQHM+csRuWAvC0TBe4gpZ7qTI3LeZRpDmvxA==",
+  "dgSpecHash": "22emrK+b6W6YAv8488CQro81pRFdLYxVBGKNkIMEq6MFsy72gJfSOfKgb7E8Jzd10XwR5RcGHmFT7MfL9gcZ6w==",
   "success": true,
   "projectFilePath": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo.Grpc/WebShopDemo.Grpc.csproj",
   "expectedPackageFiles": [
+    "/Users/donetianpetkov/.nuget/packages/efcore.namingconventions/6.0.0/efcore.namingconventions.6.0.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/google.protobuf/3.18.0/google.protobuf.3.18.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/grpc.aspnetcore/2.40.0/grpc.aspnetcore.2.40.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/grpc.aspnetcore.server/2.40.0/grpc.aspnetcore.server.2.40.0.nupkg.sha512",
@@ -35,6 +36,8 @@
     "/Users/donetianpetkov/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/newtonsoft.json/13.0.2-beta3/newtonsoft.json.13.0.2-beta3.nupkg.sha512",
+    "/Users/donetianpetkov/.nuget/packages/npgsql/6.0.7/npgsql.6.0.7.nupkg.sha512",
+    "/Users/donetianpetkov/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.7/npgsql.entityframeworkcore.postgresql.6.0.7.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",

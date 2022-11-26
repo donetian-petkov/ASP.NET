@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2N3s1F0+bUktB6paSaQ41HhpkgAqu3JMMwGDclV7j4JOnBfG8U3Ls5rlHHWVQtgXgWq5zTlogPQ967B5TxF7EA==",
+  "dgSpecHash": "anklfsWvnZrfUi39xeWsy1mP+V4besXJI9AYbWieLITpnLuFBIg9AUo+TBSK8zhMbSKPdUwI1CmwTgZea3Y8BA==",
   "success": true,
   "projectFilePath": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebShopDemo/WebShopDemo/WebShopDemo.csproj",
   "expectedPackageFiles": [
+    "/Users/donetianpetkov/.nuget/packages/efcore.namingconventions/6.0.0/efcore.namingconventions.6.0.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
@@ -85,6 +86,8 @@
     "/Users/donetianpetkov/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/newtonsoft.json/13.0.2-beta3/newtonsoft.json.13.0.2-beta3.nupkg.sha512",
+    "/Users/donetianpetkov/.nuget/packages/npgsql/6.0.7/npgsql.6.0.7.nupkg.sha512",
+    "/Users/donetianpetkov/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.7/npgsql.entityframeworkcore.postgresql.6.0.7.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/nuget.common/6.2.1/nuget.common.6.2.1.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/nuget.configuration/6.2.1/nuget.configuration.6.2.1.nupkg.sha512",
     "/Users/donetianpetkov/.nuget/packages/nuget.dependencyresolver.core/5.11.0/nuget.dependencyresolver.core.5.11.0.nupkg.sha512",
