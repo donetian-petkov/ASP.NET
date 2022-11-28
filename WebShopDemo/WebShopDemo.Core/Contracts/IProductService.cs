@@ -23,5 +23,6 @@ public interface IProductService
     /// <returns></returns>
     Task Add(ProductDto productDto);
 
+    Task Delete(Guid id);
 
 }
