@@ -15,6 +15,26 @@ public class PostConfiguration : IEntityTypeConfiguration<Post>
 
     private List<Post> GetPosts()
     {
-        throw new NotImplementedException();
+        return new List<Post>()
+        {
+            new Post()
+            {
+                Id = 1,
+                Title = "My first post",
+                Content = "This is my first post! How exciting!"
+            },
+            new Post()
+            {
+                Id = 2,
+                Title = "My second post",
+                Content = "Not really that exciting anymore!"
+            },
+            new Post()
+            {
+                Id = 3,
+                Title = "My third post",
+                Content = "Let's see how this goes!"
+            }
+        };
     }
 }

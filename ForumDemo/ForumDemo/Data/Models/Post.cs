@@ -8,7 +8,7 @@ namespace ForumDemo.Data.Models;
 public class Post
 {
         [Key]
-        [Comment("Post Identifier")]
+        [Comment("Post Identifier")] 
         public int Id { get; set; }
 
         [Comment("Title")]
