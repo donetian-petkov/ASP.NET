@@ -5,7 +5,7 @@
 }
 
 <h2 class="text-center">@ViewBag.Title</h2>
-<hr />
+<hr/>
 <div class="d-grid gap-2 mb-2">
     <a asp-controller="Posts" asp-action="Add" class="btn btn-primary">Add Post</a>
 </div>
@@ -19,17 +19,20 @@
             <div class="col-sm-6">
                 <div class="card ">
                     <div class="card-body">
-                        <h4 class="card-title text-center">@post.Title<p></h4>
+                        <h4 class="card-title text-center">
+                            @post.Title
+                            <p>
+                        </h4>
                         <p class="card-text">@post.Content</p>
                         <div class="d-grid gap-2">
                             <a asp-controller="Posts" asp-action="Edit" asp-route-id="@post.Id" class="btn btn-warning">Edit</a>
-                            <form class="mt-2" asp-controller="Posts" asp-action="Delete" asp-route-id="@post.Id">
+                            <form class="mt-2" id="deleteForm" asp-controller="Posts" asp-action="Delete" asp-route-id="@post.Id">
                                 <div class="d-grid gap-2">
-                                    <input type="submit" value="Delete" class="btn btn-danger mb-2" />
+                                    <input type="submit" onclick="return myConfirm()" value="Delete" class="btn btn-danger mb-2"/>
                                 </div>
                             </form>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
@@ -39,4 +42,32 @@
 else
 {
     <p class="text-center">No posts yet!</p>
+}
+
+@section Scripts
+{
+    <script type="text/javascript">
+    const myConfirm = (e) => {
+        e = e || window.event;
+        e.preventDefault();
+        Swal.fire({
+          title: 'Are you sure?',
+          text: "You won't be able to revert this!",
+          icon: 'warning',
+          showCancelButton: true,
+          confirmButtonColor: '#3085d6',
+          cancelButtonColor: '#d33',
+          confirmButtonText: 'Yes, delete it!'
+        }).then(async (result) => {
+          if (result.isConfirmed) {
+          await Swal.fire(
+                        'Deleted!',
+                        'Your file has been deleted.',
+                        'success'
+                        );
+          await $('#deleteForm').submit();
+        }
+          });
+        }
+    </script>
 }

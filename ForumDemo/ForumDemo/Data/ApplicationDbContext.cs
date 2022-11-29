@@ -1,4 +1,5 @@
-﻿using ForumDemo.Data.Models;
+﻿using ForumDemo.Data.Configure;
+using ForumDemo.Data.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,7 +14,8 @@ public class ApplicationDbContext : IdentityDbContext
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
-        /*builder.ApplyConfiguration<Post>(new PostConfiguration());
+        builder.ApplyConfiguration<Post>(new PostConfiguration());
+        /*
         builder.Entity<Microsoft.AspNetCore.Identity.IdentityRole>(entity => entity.Property(m => m.Id).HasMaxLength(85));
         builder.Entity<Microsoft.AspNetCore.Identity.IdentityUserClaim<string>>(entity => entity.Property(m => m.Id).HasMaxLength(85));
         builder.Entity<Microsoft.AspNetCore.Identity.IdentityUser>(entity => entity.Property(m => m.Id).HasMaxLength(85));

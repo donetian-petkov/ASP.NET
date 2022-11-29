@@ -140,6 +140,7 @@ public async Task<IActionResult> Edit(PostViewModel model)
     return RedirectToAction(nameof(Index));
 }*/
 
+    [HttpPost]
     public async Task<IActionResult> Delete(int id)
     {
         
@@ -154,7 +155,4 @@ public async Task<IActionResult> Edit(PostViewModel model)
 
         return RedirectToAction(nameof(Index));
     }
-    
-    
-   
 }
