@@ -26,7 +26,7 @@
                         <p class="card-text">@post.Content</p>
                         <div class="d-grid gap-2">
                             <a asp-controller="Posts" asp-action="Edit" asp-route-id="@post.Id" class="btn btn-warning">Edit</a>
-                            <form class="mt-2" id="deleteForm" asp-controller="Posts" asp-action="Delete" asp-route-id="@post.Id">
+                            <form class="mt-2" id="@post.Id" asp-controller="Posts" asp-action="Delete" asp-route-id="@post.Id">
                                 <div class="d-grid gap-2">
                                     <input type="submit" onclick="return myConfirm()" value="Delete" class="btn btn-danger mb-2"/>
                                 </div>
@@ -65,7 +65,8 @@ else
                         'Your file has been deleted.',
                         'success'
                         );
-          await $('#deleteForm').submit();
+         
+          await $(`#${e.target.parentElement.parentElement.id}`).submit();
         }
           });
         }
