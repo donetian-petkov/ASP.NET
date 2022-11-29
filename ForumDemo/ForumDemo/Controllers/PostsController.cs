@@ -1,11 +1,8 @@
-using System.ComponentModel.DataAnnotations;
-using ForumDemo.Constants;
 using ForumDemo.Data;
 using ForumDemo.Data.Models;
 using ForumDemo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql.Storage.Internal;
 
 namespace ForumDemo.Controllers;
 
@@ -18,7 +15,7 @@ public class PostsController : Controller
     {
         context = _context;
     }
-    
+
     // GET
     public async Task<IActionResult> Index()
     {
@@ -30,54 +27,103 @@ public class PostsController : Controller
                 Content = p.Content
             })
             .ToListAsync();
-        
+
         return View(model);
     }
-    
-    [HttpGet]
-    public  IActionResult Add()
-    {
-        var model = new PostViewModel();
 
-        ViewData["Title"] = "Add New Post";
-        
-        return View("Edit", model);
+    [HttpGet]
+    public IActionResult Add()
+    {
+        var model = new AddPostViewModel();
+
+        return View(model);
     }
 
     [HttpPost]
-    public async Task<IActionResult> Edit(PostViewModel model)
+    public async Task<IActionResult> Add(PostViewModel model)
     {
-        ViewData["Title"] = model.Id == 0 ? "Add New Post" : "Edit Post";
 
         if (!ModelState.IsValid)
         {
             return View(model);
         }
 
-        if (model.Id == 0)
+        context.Posts.Add(new Post()
         {
-            context.Add(new Post()
-            {
-                Id = model.Id,
-                Title = model.Title,
-                Content = model.Content
-            });
-        }
-        else
-        {
-            var post = await context.Posts.FindAsync(model.Id);
-
-            if (post != null)
-            {
-                post.Title = model.Title;
-                post.Content = model.Content;
-            }
-        }
+            Title = model.Title,
+            Content = model.Content
+        });
 
         await context.SaveChangesAsync();
+
+        return RedirectToAction(nameof(Index));
+
+    }
+
+
+    [HttpGet]
+    public IActionResult Edit()
+    {
+
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Edit(PostViewModel model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(model);
+        }
         
+        var post = await context.Posts.FindAsync(model.Id);
+
+        if (post != null)
+        {
+            post.Title = model.Title;
+            post.Content = model.Content;
+        }
+        
+        await context.SaveChangesAsync();
+    
         return RedirectToAction(nameof(Index));
     }
+
+
+/*[HttpPost]
+public async Task<IActionResult> Edit(PostViewModel model)
+{
+    ViewData["Title"] = model.Id == 0 ? "Add New Post" : "Edit Post";
+
+    if (!ModelState.IsValid)
+    {
+        return View(model);
+    }
+
+    if (model.Id == 0)
+    {
+        context.Add(new Post()
+        {
+            Id = model.Id,
+            Title = model.Title,
+            Content = model.Content
+        });
+    }
+    else
+    {
+        var post = await context.Posts.FindAsync(model.Id);
+
+        if (post != null)
+        {
+            post.Title = model.Title;
+            post.Content = model.Content;
+        }
+    }
+
+    await context.SaveChangesAsync();
+    
+    return RedirectToAction(nameof(Index));
+}*/
     
     public async Task<IActionResult> Delete(int id)
     {
