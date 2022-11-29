@@ -20,6 +20,7 @@ public class PostsController : Controller
     public async Task<IActionResult> Index()
     {
         var model = await context.Posts
+            .Where(p => p.IsDeleted == false)
             .Select(p => new PostViewModel()
             {
                 Id = p.Id,
@@ -62,10 +63,24 @@ public class PostsController : Controller
 
 
     [HttpGet]
-    public IActionResult Edit()
+    public async Task<IActionResult> Edit(int id)
     {
+        var post = await context.Posts
+            .Where(p => p.Id == id)
+            .Select(p => new PostViewModel()
+            {
+                Id = p.Id,
+                Title = p.Title,
+                Content = p.Content
+            }).FirstOrDefaultAsync();
 
-        return View();
+        if (post != null)
+        {
+
+            return View(post);
+        }
+
+        return RedirectToAction(nameof(Index));
     }
 
     [HttpPost]
@@ -124,11 +139,22 @@ public async Task<IActionResult> Edit(PostViewModel model)
     
     return RedirectToAction(nameof(Index));
 }*/
-    
+
     public async Task<IActionResult> Delete(int id)
     {
-        return View();
+        
+        var post = await context.Posts.FindAsync(id);
+
+        if (post != null)
+        {
+            post.IsDeleted = true;
+
+            await context.SaveChangesAsync();
+        }
+
+        return RedirectToAction(nameof(Index));
     }
+    
     
    
 }
