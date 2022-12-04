@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using WebShopDemo.Core.Contracts;
 using WebShopDemo.Core.Data;
 using WebShopDemo.Core.Data.Common;
+using WebShopDemo.Core.Data.Models.Account;
 using WebShopDemo.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString).UseSnakeCaseNamingConvention());
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+    {
+        options.SignIn.RequireConfirmedAccount = true;
+        
+        options.Password.RequiredLength = 12;
+        options.Password.RequireDigit = true;
+        options.Password.RequireNonAlphanumeric = true;
+
+        options.User.RequireUniqueEmail = true;
+
+        options.Lockout.MaxFailedAccessAttempts = 3;
+
+    })
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IProductService, ProductService>();

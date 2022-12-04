@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using WebShopDemo.Core.Contracts;
@@ -10,6 +11,7 @@ namespace WebShopDemo.Controllers;
 /// Web Shop Products
 /// </summary>
 
+[Authorize]
 public class ProductController : Controller
 {
 
