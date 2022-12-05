@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using WebShopDemo.Core.Constants;
 using WebShopDemo.Core.Contracts;
 using WebShopDemo.Core.Data.Models;
 using WebShopDemo.Core.Models;
@@ -12,11 +13,11 @@ namespace WebShopDemo.Controllers;
 /// </summary>
 
 [Authorize]
-public class ProductController : Controller
+public class ProductController : BaseController
 {
 
     private readonly IProductService productService;
-
+    
     public ProductController(IProductService _productService)
     {
         productService = _productService;
@@ -27,6 +28,7 @@ public class ProductController : Controller
     /// List All Products   
     /// </summary>
     /// <returns></returns>
+    [AllowAnonymous]
     public async Task<IActionResult> Index()
     {
         var products = await productService.GetAll();
@@ -36,6 +38,7 @@ public class ProductController : Controller
     }
     
     [HttpGet]
+    [Authorize(Roles = $"{RoleConstants.Manager}, {RoleConstants.Supervisor}")]
     public IActionResult Add()
     {
         var model = new ProductDto();
@@ -45,6 +48,7 @@ public class ProductController : Controller
     }
 
     [HttpPost]
+    [Authorize(Roles = $"{RoleConstants.Manager}, {RoleConstants.Supervisor}")]
     public async Task<IActionResult> Add(ProductDto model)
     {
         ViewData["Title"] = "Add New Product";
@@ -61,6 +65,7 @@ public class ProductController : Controller
     }
 
     [HttpPost]
+    [Authorize(Policy = "CanDeleteProduct")]
     public async Task<IActionResult> Delete([FromForm]string id)
     {
 
