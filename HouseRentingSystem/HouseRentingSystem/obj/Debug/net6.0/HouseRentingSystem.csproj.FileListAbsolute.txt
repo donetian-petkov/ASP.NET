@@ -6,7 +6,6 @@
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/HouseRentingSystem.deps.json
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/HouseRentingSystem.runtimeconfig.json
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/HouseRentingSystem.dll
-/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/ref/HouseRentingSystem.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/HouseRentingSystem.pdb
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/Google.Protobuf.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/Humanizer.dll
@@ -85,3 +84,8 @@
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/obj/Debug/net6.0/ref/HouseRentingSystem.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/obj/Debug/net6.0/HouseRentingSystem.pdb
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/obj/Debug/net6.0/HouseRentingSystem.genruntimeconfig.cache
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/HouseRentingSystem.Core.dll
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/HouseRentingSystem.Infrastructure.dll
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/HouseRentingSystem.Core.pdb
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/bin/Debug/net6.0/HouseRentingSystem.Infrastructure.pdb
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem/obj/Debug/net6.0/refint/HouseRentingSystem.dll

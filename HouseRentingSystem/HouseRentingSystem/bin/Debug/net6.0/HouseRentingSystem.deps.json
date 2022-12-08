@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "HouseRentingSystem/1.0.0": {
         "dependencies": {
+          "HouseRentingSystem.Core": "1.0.0",
+          "HouseRentingSystem.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.10",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
           "Microsoft.AspNetCore.Identity.UI": "6.0.10",
@@ -657,6 +659,28 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "HouseRentingSystem.Core/1.0.0": {
+        "dependencies": {
+          "HouseRentingSystem.Infrastructure": "1.0.0",
+          "MySql.Data.EntityFrameworkCore": "6.10.9"
+        },
+        "runtime": {
+          "HouseRentingSystem.Core.dll": {}
+        }
+      },
+      "HouseRentingSystem.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore": "6.0.11",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.11",
+          "MySql.Data.EntityFrameworkCore": "6.10.9",
+          "MySql.EntityFrameworkCore": "6.0.7",
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.2"
+        },
+        "runtime": {
+          "HouseRentingSystem.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1085,6 +1109,16 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "HouseRentingSystem.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HouseRentingSystem.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
