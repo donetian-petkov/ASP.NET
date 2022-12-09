@@ -19,6 +19,155 @@ namespace HouseRentingSystem.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "6.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("HouseRentingSystem.Infrastructure.Data.Models.Agent", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("varchar(15)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Agents");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            PhoneNumber = "+359888888888",
+                            UserId = "dea12856-c198-4129-b3f3-b893d8395082"
+                        });
+                });
+
+            modelBuilder.Entity("HouseRentingSystem.Infrastructure.Data.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Cottage"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Single-Family"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Duplex"
+                        });
+                });
+
+            modelBuilder.Entity("HouseRentingSystem.Infrastructure.Data.Models.House", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
+
+                    b.Property<int>("AgentId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
+
+                    b.Property<decimal>("PricePerMonth")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("RenterId")
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AgentId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("RenterId");
+
+                    b.ToTable("Houses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "North London, UK (near the border)",
+                            AgentId = 1,
+                            CategoryId = 3,
+                            Description = "A big house for your whole family. Don't miss to buy a house with three bedrooms.",
+                            ImageUrl = "https://www.luxury-architecture.net/wp-content/uploads/2017/12/1513217889-7597-FAIRWAYS-010.jpg",
+                            PricePerMonth = 2100.00m,
+                            RenterId = "6d5800ce-d726-4fc8-83d9-d6b3ac1f591e",
+                            Title = "Big House Marina"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "Near the Sea Garden in Burgas, Bulgaria",
+                            AgentId = 1,
+                            CategoryId = 2,
+                            Description = "It has the best comfort you will ever ask for. With two bedrooms, it is great for your family.",
+                            ImageUrl = "https://cf.bstatic.com/xdata/images/hotel/max1024x768/179489660.jpg?k=2029f6d9589b49c95dcc9503a265e292c2cdfcb5277487a0050397c3f8dd545a&o=&hp=1",
+                            PricePerMonth = 1200.00m,
+                            Title = "Family House Comfort"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Address = "Boyana Neighbourhood, Sofia, Bulgaria",
+                            AgentId = 1,
+                            CategoryId = 2,
+                            Description = "This luxurious house is everything you will need. It is just excellent.",
+                            ImageUrl = "https://i.pinimg.com/originals/a6/f5/85/a6f5850a77633c56e4e4ac4f867e3c00.jpg",
+                            PricePerMonth = 2000.00m,
+                            Title = "Grand House"
+                        });
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -130,6 +279,40 @@ namespace HouseRentingSystem.Infrastructure.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "dea12856-c198-4129-b3f3-b893d8395082",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "f864322b-4aa3-4cd5-b6b7-0122f301d9d5",
+                            Email = "agent@mail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "agent@mail.com",
+                            NormalizedUserName = "agent@mail.com",
+                            PasswordHash = "AQAAAAEAACcQAAAAEB0gJ0WF0WKIgWEa51d3FqUy4UeHp8tDk5w/Wt2OlF+k3DLgWPEWnSr8Obt+FuHOHA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "804f5906-ffdd-4d44-b691-4a81a2788a85",
+                            TwoFactorEnabled = false,
+                            UserName = "agent@mail.com"
+                        },
+                        new
+                        {
+                            Id = "6d5800ce-d726-4fc8-83d9-d6b3ac1f591e",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "cbfee9a9-8897-47a6-8126-cc58aa8675ea",
+                            Email = "guest@mail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "guest@mail.com",
+                            NormalizedUserName = "guest@mail.com",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAmXmpJghCZ4NUVFQCSqzh+wv9x/N6H1ei4dzeShIDrcaYHTEamL8jyxiQ4+hb74Aw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "a84cfb32-2155-4867-8a74-4d1a80dc2451",
+                            TwoFactorEnabled = false,
+                            UserName = "guest@mail.com"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -215,6 +398,42 @@ namespace HouseRentingSystem.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("HouseRentingSystem.Infrastructure.Data.Models.Agent", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("HouseRentingSystem.Infrastructure.Data.Models.House", b =>
+                {
+                    b.HasOne("HouseRentingSystem.Infrastructure.Data.Models.Agent", "Agent")
+                        .WithMany()
+                        .HasForeignKey("AgentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HouseRentingSystem.Infrastructure.Data.Models.Category", "Category")
+                        .WithMany("Houses")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Renter")
+                        .WithMany()
+                        .HasForeignKey("RenterId");
+
+                    b.Navigation("Agent");
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Renter");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -264,6 +483,11 @@ namespace HouseRentingSystem.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("HouseRentingSystem.Infrastructure.Data.Models.Category", b =>
+                {
+                    b.Navigation("Houses");
                 });
 #pragma warning restore 612, 618
         }

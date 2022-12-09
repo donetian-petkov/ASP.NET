@@ -12,4 +12,4 @@
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem.Core/obj/Debug/net6.0/HouseRentingSystem.Core.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem.Core/obj/Debug/net6.0/ref/HouseRentingSystem.Core.dll
 /Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem.Core/obj/Debug/net6.0/HouseRentingSystem.Core.pdb
-/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem.Core/obj/Debug/net6.0/refint/HouseRentingSystem.Core.dll
+/Users/donetianpetkov/Documents/GitHub/ASP.NET/HouseRentingSystem/HouseRentingSystem.Core/bin/Debug/net6.0/ref/HouseRentingSystem.Core.dll

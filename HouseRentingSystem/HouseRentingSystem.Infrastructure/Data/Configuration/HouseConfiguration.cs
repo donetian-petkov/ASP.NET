@@ -8,7 +8,7 @@ public class HouseConfiguration : IEntityTypeConfiguration<House>
 {
     public void Configure(EntityTypeBuilder<House> builder)
     {
-        throw new NotImplementedException();
+        builder.HasData(CreateHouses());
     }
 
     private List<House> CreateHouses()

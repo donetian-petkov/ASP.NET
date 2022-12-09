@@ -32,7 +32,6 @@ public class House
     public string ImageUrl { get; set; } = null!;
     
     [Required]
-    [Column(TypeName = "money")]
     [Precision(18,2)]
     public decimal PricePerMonth { get; set; }
     
@@ -48,8 +47,8 @@ public class House
     [ForeignKey(nameof(AgentId))] 
     public Agent Agent { get; set; } = null!;
 
-    public string RenterId { get; set; }
+    public string? RenterId { get; set; }
 
     [ForeignKey(nameof(RenterId))]
-    public IdentityUser Renter { get; set; }
+    public IdentityUser? Renter { get; set; }
 }
