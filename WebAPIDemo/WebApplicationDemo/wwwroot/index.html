@@ -9,13 +9,13 @@
 <div id="timeWrapper"></div>
 <button id="timeBtn">Get Time</button>
 <script>
-    
+
     // Document.onLoad / $() - it waits for the whole page to load
-    $(function(){
+    $(function () {
         $('#timeBtn').on('click', function () {
-            $.getJSON('https://localhost:7037/api/Time/get', function(data) {
-                console.log(data);
-            })
+            $.getJSON('https://localhost:7037/api/Time/get', function (data) {
+                $('#timeWrapper').text("Hello, the time is " + data.currentTime);
+            });
         });
     });
 </script>

@@ -10,6 +10,9 @@ builder.Services.AddCors();
 
 var app = builder.Build();
 
+app.UseCors(builder => 
+    builder.WithOrigins("https://localhost:7030"));
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -18,8 +21,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-app.UseCors();
 
 app.UseAuthorization();
 
