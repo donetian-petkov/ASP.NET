@@ -11,6 +11,7 @@ public static class HouseRentingServiceCollectionExtension
 
         services.AddScoped<IRepository, Repository>();
         services.AddScoped<IHouseService, HouseService>();
+        services.AddScoped<IAgentService, AgentService>();
 
         
         return services;
