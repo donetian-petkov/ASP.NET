@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "j9XXVrTbYwNo0NKdLmHbGAbeKHk/j4uCih2pcDGYm2Y=",
+  "Source": "WebApplicationDemo",
+  "BasePath": "_content/WebApplicationDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplicationDemo/wwwroot",
+      "Source": "WebApplicationDemo",
+      "ContentRoot": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebAPIDemo/WebApplicationDemo/wwwroot/",
+      "BasePath": "_content/WebApplicationDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebAPIDemo/WebApplicationDemo/wwwroot/index.html",
+      "SourceId": "WebApplicationDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/donetianpetkov/Documents/GitHub/ASP.NET/WebAPIDemo/WebApplicationDemo/wwwroot/",
+      "BasePath": "_content/WebApplicationDemo",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
