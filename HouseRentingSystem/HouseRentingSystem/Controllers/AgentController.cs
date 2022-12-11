@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace HouseRentingSystem.Controllers;
 
 [Authorize]
-public class Agent : Controller
+public class AgentController : Controller
 {
     private readonly IAgentService agentService;
 
-    public Agent(IAgentService _agentService)
+    public AgentController(IAgentService _agentService)
     {
         agentService = _agentService;
     }
@@ -71,5 +71,6 @@ public class Agent : Controller
 
         return RedirectToAction("Index", "Home");
     }
+    
     
 }
