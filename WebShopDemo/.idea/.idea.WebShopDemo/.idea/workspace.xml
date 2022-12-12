@@ -9,28 +9,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6db6cf3f-0252-4c05-88a5-7853979f10a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebShopDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebShopDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/WebShopDemo.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/obj/Debug/net6.0/WebShopDemo.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/bin/Debug/net6.0/WebShopDemo.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/bin/Debug/net6.0/WebShopDemo.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/bin/Debug/net6.0/WebShopDemo.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/bin/Debug/net6.0/WebShopDemo.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/WebShopDemo.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/ref/WebShopDemo.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/ref/WebShopDemo.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/refint/WebShopDemo.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/obj/Debug/net6.0/refint/WebShopDemo.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Core/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/Debug/net6.0/WebShopDemo.Grpc.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo.Grpc/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/bin/Debug/net6.0/WebShopDemo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/Debug/net6.0/WebShopDemo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebShopDemo/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebShopDemo/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/bin/Debug/net6.0/IdentityApplicationDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/bin/Debug/net6.0/IdentityApplicationDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/bin/Debug/net6.0/IdentityApplicationDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/bin/Debug/net6.0/IdentityApplicationDemo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/bin/Debug/net6.0/IdentityApplicationDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/bin/Debug/net6.0/IdentityApplicationDemo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/bin/Debug/net6.0/ref/IdentityApplicationDemo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/IdentityApplicationDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/IdentityApplicationDemo.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/IdentityApplicationDemo.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/IdentityApplicationDemo.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/IdentityApplicationDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/IdentityApplicationDemo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/IdentityApplicationDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/IdentityApplicationDemo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/ref/IdentityApplicationDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/Debug/net6.0/ref/IdentityApplicationDemo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/IdentityApplicationDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/IdentityApplicationDemo.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/IdentityApplicationDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/IdentityApplicationDemo.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/../IdentityApplicationDemo/IdentityApplicationDemo/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +166,7 @@
       <workItem from="1669356036663" duration="26758000" />
       <workItem from="1670049231569" duration="1196000" />
       <workItem from="1670486989654" duration="446000" />
+      <workItem from="1670837760625" duration="148000" />
     </task>
     <servers />
   </component>
