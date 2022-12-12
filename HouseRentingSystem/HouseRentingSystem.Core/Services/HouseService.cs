@@ -48,7 +48,7 @@ public class HouseService : IHouseService
             .AnyAsync(h => h.Id == categoryId);
     }
 
-    public async Task<int> Create(HouseModel model)
+    public async Task<int> Create(HouseModel model, int agentId)
     {
         var house = new House()
         {
@@ -57,7 +57,8 @@ public class HouseService : IHouseService
             Description = model.Description,
             ImageUrl = model.ImageUrl,
             PricePerMonth = model.PricePerMonth,
-            Title = model.Title
+            Title = model.Title,
+            AgentId = agentId
         };
 
         await repository.AddAsync(house);

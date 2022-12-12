@@ -42,4 +42,10 @@ public class AgentService : IAgentService
         await repo.AddAsync(agent);
         await repo.SaveChangesAsync();
     }
+
+    public async Task<int> GetAgentId(string userId)
+    {
+        return (await repo.AllReadonly<Agent>()
+            .FirstOrDefaultAsync(a => a.UserId == userId))?.Id ?? 0;
+    }
 }

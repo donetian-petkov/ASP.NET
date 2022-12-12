@@ -10,7 +10,9 @@ public interface IHouseService
 
     Task<bool> CategoryExists(int categoryId);
 
-    Task<int> Create(HouseModel model);
+    Task<int> Create(HouseModel model, int agentId);
+    
+    
 
 
 }

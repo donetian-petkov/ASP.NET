@@ -30,5 +30,7 @@ public class HouseModel
     public int CategoryId { get; set; }
 
     public IEnumerable<HouseCategoryModel> HouseCategories { get; set; } = new List<HouseCategoryModel>();
+    
+    public int AgentId { get; set; }
 
 }

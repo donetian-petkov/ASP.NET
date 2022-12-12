@@ -52,6 +52,11 @@ public class HouseController : Controller
         {
             return RedirectToAction(nameof(AgentController.Become), "Agent");
         }
+        
+        var agentId = await agentService.GetAgentId(User.Id());
+
+        
+        Console.WriteLine(agentId);
 
         var model = new HouseModel()
         {
@@ -80,8 +85,10 @@ public class HouseController : Controller
             
             return View(model);
         }
+
+        var agentId = await agentService.GetAgentId(User.Id());
         
-        var id = await houseService.Create(model);
+        var id = await houseService.Create(model, agentId);
 
         return RedirectToAction(nameof(Details), new { id });
     }
